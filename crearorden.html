@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Crear Orden</title>
+
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+   
+    <style>
+    body {
+  	background-color: #D7DBDD;
+    }
+    </style>
+
+    <style>
+    h2,h6{
+      background-color: #9900CC;
+    }
+
+    </style>  
+
+  </head>
+  
+  <body>
+
+  <div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<h2 class="text-center text-white">
+				SERVICIO RAPIDO Y SEGURO DE MENSAJERIA Y PAQUETERIA.
+			</h2>
+	
+	<div class="row">
+		<!--div class="col-md-4">
+		<img alt="Bootstrap image preview" src="img\Logo_3_InstaYa-removebg-preview.png" class="rounded" alt=" width="120" height="120">
+		</div-->
+		<div class="col-md-4">
+		</div>
+		<div class="col-md-4">
+			<ul class="nav nav-pills">
+				<li class="nav-item">
+					<a class="nav-link active" href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="Login.html">Login</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="listado.html">Listado de Ordenes</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+    <div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<h3 class="text-center">
+				Gestión de paquetes - Crear Orden
+			</h3>
+			<br/>
+			
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3">
+		</div>
+		<div class="col-md-6">
+			<form role="form">
+				<div class="form-group">
+					 
+					<label for="Start">Fecha de Recogida:</label>
+			    		<div class="form-group">
+					   <input type="Date" class="form-control border-0 p-2" placeholder="Fecha de recogida" id="start" name="trip-start" 
+				      	      value="2018-07-22"
+       				              min="2000-01-01" max="2030-12-31" required="required" />
+			    		   </div>
+			    		   <label for="Start">Hora de Recogida:</label>
+			    		   <div class="form-group">
+						<input type="time" class="form-control border-0 p-2" placeholder="Hora de recogida" 
+				       		min="18:00" max="21:00" step="3600" required="required" />
+			    		   </div>
+			    		   <div class="form-group">
+                                		<select class="custom-select border-0 px-4" style="height: 47px;">
+                                    			<option selected>Seleccionar tipo de Envio</option>
+                                    			<option value="1">Sobres o Documentos</option>
+                                    			<option value="2">Paquetes</option>
+                                		</select>
+                            		   </div>
+			    		   <div class="input-group">
+          					<input name="ancho" id="anchopaq" type="text" required class="form-control" placeholder="Ancho del Paquete">
+       						<span class="input-group-addon">-</span>
+          					<input name="alto" id="altopaq" type="text" required class="form-control" placeholder="Alto del Paquete">
+        		    		   </div>
+			    		   <br>
+			    		   <div class="input-group">
+          					<input name="largo" id="largopaq" type="text" required class="form-control" placeholder="Longitud del Paquete">
+       						<span class="input-group-addon">-</span> 
+          					<input name="peso" id="pesopaq" type="text" required class="form-control" placeholder="Peso del Paquete">
+        		    		   </div>   
+			    		   <br>
+			    		   <div class="form-group">
+                                		<input type="adress" class="form-control border-0 p-2" placeholder="Direccion de recogida del Paquete" required="required" />
+                            		   </div>
+			    		   <div class="form-group">
+                                		<input type="text" class="form-control border-0 p-2" placeholder="Ciudad de recogida del Paquete" required="required" />
+                            		   </div>
+			    		   <div class="form-group">
+						<input type="text" class="form-control border-0 p-2" placeholder="Nombre del Destinatario" required="required" /> 
+			    		   </div>
+			    		   <div class="form-group">
+						<input type="text" class="form-control border-0 p-2" placeholder="Cedula/Nit del Destinatario" required="required" /> 
+			    		   </div>
+			     		   <div class="form-group">
+                                		<input type="adress" class="form-control border-0 p-2" placeholder="Dirección de Entrega" required="required" />
+                            		   </div>
+			    		   <div class="form-group">
+                                		<input type="text" class="form-control border-0 p-2" placeholder="Ciudad de Entrega" required="required" />
+                            		   </div>
+					   <button type="submit" class="btn btn-primary">
+						Crear Orden
+					   </button>
+			        </div>
+                            
+                        </form>
+				
+		</div>
+		<div class="col-md-3">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-9">
+		</div>
+		<div class="col-md-3">
+			<a style="text-decoration:underline;font-weight:bold;"  href="Home.html">Volver<a/>
+		</div>
+	</div>
+</div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
